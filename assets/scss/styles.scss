@@ -1,0 +1,26 @@
+// Import your color palette
+@import 'colors';
+
+// Apply colors to elements
+body {
+  background-color: $body-bg;
+  color: $text-color;
+}
+
+.container {
+  background-color: $container-bg;
+  border: 1px solid $border-color;
+  height: 100vh;
+}
+
+footer{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: $accent-color;
+}
+
+h1, h2, h3 {
+  color: $heading-color;
+}
+
+
